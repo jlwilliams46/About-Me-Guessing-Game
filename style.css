@@ -1,0 +1,86 @@
+/*app styles*/
+header {
+  background: rgb(255,182,193);
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  width: 775px;
+}
+
+#footer{
+    background: rgb(255,182,193);
+    text-align: center;
+    padding: 20px;
+    width: 775px;
+    height: 130px;
+    z-index: 10;
+    margin-top: 400px;
+    position: relative;
+    clear: both;
+}
+
+
+body {
+  background-color:  rgb(245,245,220);
+}
+
+h1{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.image {
+  border: 3px solid #000000;
+}
+
+#facts {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  width: 600px;
+  /*border: 3px solid #000000;*/
+  padding: 10px;
+}
+
+#firstset {
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    line-height: 1.9;
+    text-align: left;
+    font-size: 25px;
+    width: 600px;
+    /*border: 3px solid #000000;*/
+    padding: 10px;
+}
+
+#secondset {
+    position: absolute;
+    right: 20px;
+    top: 650px;
+    line-height: 1.9;
+    text-align: left;
+    font-size: 25px;
+    width: 600px;
+    /*border: 3px solid #000000;*/
+    padding: 10px;
+}
+
+#video {
+  position: absolute;
+  left: 125px;
+  top: 625px;
+}
